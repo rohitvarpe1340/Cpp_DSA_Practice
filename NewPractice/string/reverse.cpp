@@ -15,7 +15,7 @@ string reverseString(string str ,int n ){
 int main(){
     string str = "epraV tihoR";
     int n = str.length();
-    str = reverseString(str, n);
-    cout << str << endl;
+    string reverse = reverseString(str, n);
+    cout << reverse << endl;
     return 0;
 }
